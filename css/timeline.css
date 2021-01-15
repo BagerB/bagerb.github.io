@@ -119,4 +119,11 @@ html {
     transform: translateY(44%);
   }
 }
+
+/* kleinere digitale Endgeräte */
+@media screen and (max-width: 300px) {
+  .timeline-container {
+    transform: translateY(45%);
+  }
+}
   
