@@ -121,9 +121,9 @@ html {
 }
 
 /* kleinere digitale Endgeräte */
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 240px) {
   .timeline-container {
-    transform: translateY(45%);
+    transform: translateY(46%);
   }
 }
   
