@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .logo {
+    font-size: 2em;
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header .toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: url(/images/menu.jpg);
+    color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    cursor: pointer;
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.site-title {
+  max-width: 50%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  padding: 10rem 5rem;
+}
+.site-title h1 {
+  font-size: 5.625rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+.site-title h3 {
+  font-size: 1.875rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 450;
+  opacity: 60%;
+}
+.page-title {
+  max-width: 50%;
+  position: absolute;
+  top: 20%;
+  transform: translateY(-20%);
+  color: #fff;
+  padding: 3rem 3rem;
+}
+.page-title h2 {
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+.page-title h4 {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 450;
+  opacity: 60%;
+}
+.page-title p {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  text-align: justify;
+  padding-top: 2rem;
+}
+.page-quote {
+  max-width: 50%;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  padding: 10rem 5rem;
+}
+.page-quote h5 {
+  font-size: 0.8rem;
+  font-weight: 'Montserrat', sans-serif;
+  font-weight: 800;
+}
+.page-quote p {
+  font-size: 0.8rem;
+  font-weight: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+html,
+    body 
+    {
+      position: relative;
+      height: 100%;
+    }
+    body 
+    {
+      background: #000;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 14px;
+      color: #000;
+    }
+    .swiper-button-prev, .swiper-button-next {
+      position: fixed;
+    }
+    .swiper-container 
+    {
+      width: 100%;
+      height: 100%;
+      overflow-x: hidden !important;
+      overflow-y: auto !important;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: rgb(0, 0, 0);
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+/* Responsive */
+
+/* Übliche Monitorgröße 1920x1080 */
+@media screen and (max-width: 1900px) {
+  .site-title h1 {
+    font-size: 2rem;
+  }
+  .site-title h3 {
+    font-size: 1rem;
+  }
+  .page-quote {
+    max-width: 40%;
+  }
+  .page-quote h5 {
+    font-size: 0.5rem;
+  }
+  .page-quote p {
+    font-size: 0.5rem;
+  }
+  .page-title h2 {
+    font-size: 2rem;
+  }
+  .page-title h4 {
+    font-size: 1rem;
+  }
+  .page-title p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Quer- und Hochformat iPad */
+@media screen and (max-width: 1024px) {
+  .site-title h1 {
+    font-size: 1.5rem;
+  }
+  .site-title h3 {
+    font-size: 0.5rem;
+  }
+  .page-title h2 {
+    font-size: 1.5rem;
+  }
+  .page-title h4 {
+    font-size: 0.5rem;
+  }
+  .page-title p {
+    font-size: 0.6rem;
+  }
+}
+
+/* Quer- und Hochformat iPhone 6/7/8 */
+@media screen and (max-width: 667px) {
+  header {
+    padding: 20px 50px;
+  }
+  header .logo {
+    font-size: 1em;
+  }
+  .site-title {
+    max-width: 100%;
+    top: 20%;
+    left: auto;
+    padding: 0rem 0rem;
+  }
+  .site-title h1 {
+    font-size: 1.5rem;
+  }
+  .site-title h3 {
+    font-size: 1rem;
+  }
+  .page-title {
+    max-width: 100%;
+  }
+  .page-title h2 {
+    font-size: 1rem;
+  }
+  .page-title h4 {
+    font-size: 0.7rem;
+  }
+  .page-title p {
+    font-size: 0.46rem;
+  }
+  .page-quote {
+    max-width: 100%;
+    top: 75%;
+    right: auto;
+  }
+  .page-quote h5 {
+    font-size: 0.6rem;
+  }
+  .page-quote p {
+    font-size: 0.6rem;
+  }
+}
