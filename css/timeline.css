@@ -123,7 +123,7 @@ html {
 /* kleinere digitale Endgeräte */
 @media screen and (max-width: 240px) {
   .timeline-container {
-    transform: translateY(46%);
+    transform: translateY(40%);
   }
 }
   
