@@ -113,17 +113,17 @@ html {
   }
 }
 
-/* Querformat iPhone 6/7/8 */
+/* Querformat iPhone 6/7/8 
 @media screen and (max-width: 375px) {
   .timeline-container {
     transform: translateY(44%);
   }
 }
 
-/* kleinere digitale Endgeräte */
+/* kleinere digitale Endgeräte 
 @media screen and (max-width: 240px) {
   .timeline-container {
     transform: translateY(46%);
   }
-}
+}*/
   
