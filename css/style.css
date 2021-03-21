@@ -63,7 +63,7 @@ header .toggle {
   opacity: 60%;
 }
 .page-title {
-  max-width: 80%;
+  max-width: 70%;
   position: absolute;
   top: 25%;
   transform: translateY(-25%);
