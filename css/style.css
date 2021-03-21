@@ -183,12 +183,15 @@ html,
 }
 
 /* Quer- und Hochformat iPad */
-@media screen and (max-width: 1668px) {
+@media screen and (max-width: 1024px) {
   .site-title h1 {
     font-size: 1.5rem;
   }
   .site-title h3 {
     font-size: 0.5rem;
+  }
+  .page-title {
+    max-width: 70%;
   }
   .page-title h2 {
     font-size: 1.5rem;
@@ -197,7 +200,6 @@ html,
     font-size: 0.5rem;
   }
   .page-title p {
-    max-width: 70%;
     font-size: 0.6rem;
   }
 }
