@@ -95,7 +95,7 @@ html {
 /* Übliche Monitorgröße 1920x1080 */
 @media screen and (max-width: 1920px) {
   .timeline-container {
-    transform: translateY(43%);
+    transform: translateY(40%);
   }
 }
 
