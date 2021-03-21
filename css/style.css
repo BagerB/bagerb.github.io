@@ -65,7 +65,7 @@ header .toggle {
 .page-title {
   max-width: 70%;
   position: absolute;
-  top: 25%;
+  top: 30%;
   transform: translateY(-25%);
   color: #fff;
   padding: 3rem 3rem;
