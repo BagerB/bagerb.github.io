@@ -107,7 +107,7 @@ html {
 }
 @media screen and (max-width: 1668px) {
   .timeline-container {
-    transform: translateY(41%);
+    transform: translateY(35%);
   }
 }
 
