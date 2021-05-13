@@ -95,14 +95,14 @@ html {
 /* Übliche Monitorgröße 1920x1080 */
 @media screen and (max-width: 1920px) {
   .timeline-container {
-    transform: translateY(43%);
+    transform: translateY(40%);
   }
 }
 
 /* Quer- und Hochformat iPad */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1900px) {
   .timeline-container {
-    transform: translateY(43%);
+    transform: translateY(45%);
   }
 }
 
