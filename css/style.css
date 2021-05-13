@@ -200,27 +200,6 @@ html,
     font-size: 0.6rem;
   }
 }
-/* @media screen and (max-width: 768px) {
-  .site-title h1 {
-    font-size: 1.5rem;
-  }
-  .site-title h3 {
-    font-size: 0.5rem;
-  }
-  .page-title {
-    max-width: 70%;
-  }
-  .page-title h2 {
-    font-size: 1.5rem;
-  }
-  .page-title h4 {
-    font-size: 0.5rem;
-  }
-  .page-title p {
-    font-size: 0.6rem;
-  }
-} */
-
 /* Quer- und Hochformat iPhone 6/7/8 */
 @media screen and (max-width: 667px) {
   header {
